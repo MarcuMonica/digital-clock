@@ -7,7 +7,7 @@ const clockElement = document.getElementById('clock');
 const stopwatchElement = document.getElementById('stopwatch');
 const dateElement = document.getElementById('dateParagraph');
 
-let activeClock = 'stopwatch';
+let activeClock = 'clock';
 const getMonth = (month) => {
   switch (month) {
     case 1:
